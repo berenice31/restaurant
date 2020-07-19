@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { FaBeer } from "react-icons/fa"
+// import { FaBeer } from "react-icons/fa"
 
 const IndexPage = () => (
   <Layout>
