@@ -20,7 +20,7 @@ export default class Navbar extends Component {
     return (
       <NavWrapper>
         <NavbarHeader handleNavbar={this.handleNavbar} />
-        <NavbarLinks NavbarOpen={this.state.NavbarOpen} />
+        <NavbarLinks navbarOpen={this.state.navbarOpen} />
         <NavbarIcons />
       </NavWrapper>
     )
