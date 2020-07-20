@@ -16,6 +16,7 @@ const IndexPage = () => (
         <div className="row-6"> Hello world</div>
       </div>
     </div> */}
+    <h3> this is home page</h3>
   </Layout>
 )
 
