@@ -2,6 +2,8 @@ import React from "react"
 // import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { HomeHeader, Banner } from "../utils"
+import img from "../images/bcg/homeBcg.jpeg"
 
 // import { FaBeer } from "react-icons/fa"
 
@@ -16,7 +18,9 @@ const IndexPage = () => (
         <div className="row-6"> Hello world</div>
       </div>
     </div> */}
-    <h3> this is home page</h3>
+    <HomeHeader img={img}>
+      <Banner title="eatery" subtitle="15, rue du Tor - 31000 Toulouse" />
+    </HomeHeader>
   </Layout>
 )
 
