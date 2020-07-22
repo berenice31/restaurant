@@ -43,4 +43,7 @@ const InfoWrapper = styled.div`
   @media (min-width: 768px) {
     width: 70%;
   }
+  @media (min-width: 992px) {
+    width: 60%;
+  }
 `
