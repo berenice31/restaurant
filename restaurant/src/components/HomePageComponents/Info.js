@@ -20,11 +20,17 @@ export default class Info extends Component {
             vous et votre compagnon de loisir. Pension, Valorisation, n'hésitez
             pas à nous contacter
           </p>
-          <Link to="/contact/" style={{ textDecoration: "none" }}>
-            <SectionButton style={{ margin: "2rem auto" }}>
-              {" "}
-              contact
-            </SectionButton>
+          <Link
+            className="jauge"
+            to="/contact/"
+            style={{ textDecoration: "none" }}
+          >
+            <span className="jauge-remplissage">
+              <SectionButton style={{ margin: "2rem auto" }}>
+                {" "}
+                contact
+              </SectionButton>
+            </span>
           </Link>
         </InfoWrapper>
       </Section>
@@ -45,5 +51,31 @@ const InfoWrapper = styled.div`
   }
   @media (min-width: 992px) {
     width: 60%;
+  }
+  CSS .jauge {
+    width: 100px;
+    height: 200px;
+    display: block;
+    background-color: #303030;
+    position: relative;
+  }
+  /* .jauge {
+    width: 100px;
+    height: 200px;
+    display: block;
+    background-color: #303030;
+    position: relative;
+  }
+  .jauge-remplissage {
+    transition: all 0.3s linear 0s;
+    background-color: #33bee5;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  } */
+  .jauge:hover .jauge-remplissage {
+    height: 100%;
   }
 `

@@ -6,6 +6,7 @@ import { HomeHeader, Banner, BannerButton } from "../utils"
 import img from "../images/bcg/white-horse.jpg"
 import Info from "../components/HomePageComponents/Info"
 import Gallery from "../components/HomePageComponents/Gallery"
+import { Link } from "gatsby"
 
 // import { FaBeer } from "react-icons/fa"
 
@@ -21,11 +22,16 @@ const IndexPage = () => (
       </div>
     </div> */}
     <HomeHeader img={img}>
-      <Banner title="écurie SIMIONI" subtitle="81570 Frejeville">
-        <BannerButton style={{ margin: "2rem auto" }}>
-          {" "}
-          Prestations{" "}
-        </BannerButton>
+      <Banner
+        title="écurie SIMIONI"
+        subtitle=" à 10 minutes de castres, pension, valorisation et accompagnement par Ludovic Simioni, cavalier professionnel. "
+      >
+        <Link to="/prestations/" style={{ textDecoration: "none" }}>
+          <BannerButton style={{ margin: "2rem auto" }}>
+            {" "}
+            Palmarès{" "}
+          </BannerButton>
+        </Link>
       </Banner>
     </HomeHeader>
     {/* <Info />

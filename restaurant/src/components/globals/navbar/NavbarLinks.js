@@ -13,21 +13,26 @@ export default class NavbarLinks extends Component {
       },
       {
         id: 1,
+        path: "/palmares/",
+        name: "palmarès",
+      },
+      {
+        id: 2,
         path: "/installations/",
         name: "installations",
       },
       {
-        id: 2,
+        id: 3,
         path: "/prestations/",
         name: "prestations",
       },
       {
-        id: 3,
+        id: 4,
         path: "/chevaux/",
         name: "chevaux",
       },
       {
-        id: 4,
+        id: 5,
         path: "/contact/",
         name: "contact",
       },

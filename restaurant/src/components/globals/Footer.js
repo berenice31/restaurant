@@ -55,6 +55,9 @@ const FooterWrapper = styled.footer`
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    @media (min-width: 768px) {
+      display: none;
+    }
   }
   .icon {
     color: ${styles.colors.mainWhite};
