@@ -38,7 +38,7 @@ const GlobalStyle = createGlobalStyle`
 body {
   font-family: 'Open Sans', sans-serif;
   color: #262626;
-  background: #fff;
+  background: #385470;
 }
 `
 

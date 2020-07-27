@@ -10,20 +10,20 @@ export default class Info extends Component {
       <Section>
         <Title
           message="Présentation de l'établissement"
-          title="Notre mission"
+          // title="Notre mission"
         />
         <InfoWrapper>
           <p className="text">
             {" "}
-            Ici, c'est une maison plus qu'un restaurant - où l'art de vivre se
-            pratique avec douceur, discrétion et charme. On vous accueille avec
-            respect, convivialité, chaleur et très vite, comme des amis. Le mot
-            client n'a pas de sens.
+            L'écurie de propriétaire de la métairie basse, située à FREJEVILLE ,
+            à 10 minutes de Castres, vous accueille dans un cadre idyllique pour
+            vous et votre compagnon de loisir. Pension, Valorisation, n'hésitez
+            pas à nous contacter
           </p>
-          <Link to="/about/" style={{ textDecoration: "none" }}>
+          <Link to="/contact/" style={{ textDecoration: "none" }}>
             <SectionButton style={{ margin: "2rem auto" }}>
               {" "}
-              à propos
+              contact
             </SectionButton>
           </Link>
         </InfoWrapper>

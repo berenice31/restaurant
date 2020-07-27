@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import logo from "../../../images/logo.svg"
+import logo from "../../../images/logo.jpg"
 import { FaAlignRight } from "react-icons/fa"
 import styled from "styled-components"
 import { styles } from "../../../utils"
@@ -10,8 +10,8 @@ export default class NavbarHeader extends Component {
     const { handleNavbar } = this.props
     return (
       <HeaderWrapper>
-        <Link to="/">
-          <img src={logo} alt="compagny name" />
+        <Link to="/" className="logo">
+          <img className="logo-img" src={logo} alt="compagny name" />
         </Link>
         <FaAlignRight
           className="toggle-icon"
@@ -25,7 +25,7 @@ export default class NavbarHeader extends Component {
 }
 
 const HeaderWrapper = styled.div`
-  padding: 0.4rem 1rem;
+  /* padding: 0.4rem 1rem; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,5 +38,11 @@ const HeaderWrapper = styled.div`
     .toggle-icon {
       display: none;
     }
+  }
+  .logo {
+    width: 45%;
+  }
+  .logo-img {
+    width: 100%;
   }
 `

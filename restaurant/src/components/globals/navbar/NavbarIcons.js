@@ -54,7 +54,7 @@ const IconWrapper = styled.div`
     color: #da5f53;
   }
   .icon:hover {
-    color: ${styles.colors.mainYellow};
+    transform: scale(1.5);
   }
   display: none;
   @media (min-width: 768px) {

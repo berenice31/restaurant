@@ -26,7 +26,6 @@ export default class Footer extends Component {
   render() {
     return (
       <FooterWrapper>
-        <div className="title"> eatery</div>
         <div className="icons">
           {this.state.icons.map(icon => {
             return (
@@ -42,14 +41,14 @@ export default class Footer extends Component {
             )
           })}
         </div>
-        <p className="copyright"> copyright &copy; 2020 eatery</p>
+        <p className="copyright"> copyright &copy; 2020</p>
       </FooterWrapper>
     )
   }
 }
 
 const FooterWrapper = styled.footer`
-  padding: 2rem 0;
+  padding: 0.7rem 0;
   background: ${styles.colors.mainBlack};
   .icons {
     width: 10rem;

@@ -4,6 +4,7 @@ import NavbarHeader from "./NavbarHeader"
 import NavbarLinks from "./NavbarLinks"
 import NavbarIcons from "./NavbarIcons"
 import styled from "styled-components"
+import { styles } from "../../../utils"
 
 export default class Navbar extends Component {
   state = {
@@ -28,6 +29,8 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
+  background-color: ${styles.colors.mainBlack};
+  color: #fff;
   @media (min-width: 768px) {
     display: flex;
     align-items: center;

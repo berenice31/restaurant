@@ -13,7 +13,6 @@ export default Title
 
 Title.defaultProps = {
   message: "notre message",
-  title: "notre titre",
 }
 
 const TitleWrapper = styled.div`

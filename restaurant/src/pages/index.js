@@ -3,8 +3,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { HomeHeader, Banner, BannerButton } from "../utils"
-import img from "../images/bcg/homeBcg.jpeg"
+import img from "../images/bcg/white-horse.jpg"
 import Info from "../components/HomePageComponents/Info"
+import Gallery from "../components/HomePageComponents/Gallery"
 
 // import { FaBeer } from "react-icons/fa"
 
@@ -20,11 +21,15 @@ const IndexPage = () => (
       </div>
     </div> */}
     <HomeHeader img={img}>
-      <Banner title="eatery" subtitle="15, rue du Tor - 31000 Toulouse">
-        <BannerButton style={{ margin: "2rem auto" }}> Menu</BannerButton>
+      <Banner title="écurie SIMIONI" subtitle="81570 Frejeville">
+        <BannerButton style={{ margin: "2rem auto" }}>
+          {" "}
+          Prestations{" "}
+        </BannerButton>
       </Banner>
     </HomeHeader>
-    <Info />
+    {/* <Info />
+    <Gallery /> */}
   </Layout>
 )
 
