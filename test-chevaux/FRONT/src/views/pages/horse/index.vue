@@ -25,9 +25,9 @@ export default {
   },
 
   computed: {
-    ...mapGetters({
-      chevaux: 'chevaux',
-    })
+    ...mapGetters('horse', {
+  chevaux: 'chevaux',
+})
 
   },
 }
