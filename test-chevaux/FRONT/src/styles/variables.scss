@@ -1,0 +1,81 @@
+/*
+    Sizes 
+*/
+$xs-breaking-point: '768px' !default;
+$sm-breaking-point: '768px' !default;
+$md-breaking-point: '992px' !default;
+$lg-breaking-point: '1200px' !default;
+$xl-breaking-point: '1920px' !default;
+
+$font-size-base: 14px !default;
+$font-size-large: 16px !default;
+$font-size-small: 12px !default;
+
+$font-weight-base: 400 !default;
+$font-weight-strong: 700 !default;
+
+/*
+    Colors
+*/
+$bg-color: #f4f9ff;
+$bg-color-light: #f9fcff;
+
+$white:         #ffffff;
+$white-light:   #f6f6f6;
+$white-blue:    #f4f9ff;
+
+$black: #222222;
+
+$blue: #6fbbff;
+$blue-light: #71beff;
+$blue-dark: #345a7a;
+
+$bg-blue: #e7f4fe; 
+
+$green: #3be8c1;
+
+$red: #ff2d55;
+$red-light: #ff7598;
+
+$gray-lighter: #efefef;
+$gray-light: #dadada;
+$gray: #bdbdbd;
+$gray-dark: #4a4a4a;
+
+$color-primary: $blue;
+$color-secondary: #406d93;
+
+
+$color-text: $gray-dark;
+$color-disabled: $gray-lighter;
+$color-placeholder: $gray-light;
+
+$color-info: $blue;
+$color-success: $green;
+$color-warning: $red-light;
+$color-alert: $red;
+$color-danger: $red;
+
+/*
+    Decorations / animations
+*/
+$magic-animation: cubic-bezier(.62, .28, .23, .99);
+
+// #f4f9ff
+// #f9fcff
+// #ffffff
+// #406d93
+
+// #000000
+// #969596
+// #dadada
+// #bdbdbd
+// #345a7a
+
+// #72c1ff
+// #71beff
+// #6fbbff
+
+// #a4a4a4
+// #3be8c1
+// #4a4a4a

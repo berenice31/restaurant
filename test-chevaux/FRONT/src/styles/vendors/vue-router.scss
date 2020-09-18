@@ -1,0 +1,17 @@
+* {
+  &.router-link-exact-active {
+    color: $blue;
+
+    a {
+      color: $blue;
+    }
+  }
+  
+  &.router-link-active {
+    color: $blue;
+
+    a {
+      color: $blue;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <meta name="robots" content="noindex, nofollow">
+  
+  <link rel="shortcut icon" href="<%= BASE_URL %>images/favicon.ico?ts=1532622378003" type="image/x-icon">
+  <link rel="icon" href="<%= BASE_URL %>images/favicon.png?ts=1532622378003" type="image/png">
+  <link rel="icon" href="<%= BASE_URL %>images/favicon.png?ts=1532622378003" type="image/png">
+  <link rel="icon" sizes="32x32" href="<%= BASE_URL %>images/favicon-32.png?ts=1532622378003" type="image/png">
+  <link rel="icon" sizes="64x64" href="<%= BASE_URL %>images/favicon-64.png?ts=1532622378003" type="image/png">
+  <link rel="icon" sizes="96x96" href="<%= BASE_URL %>images/favicon-96.png?ts=1532622378003" type="image/png">
+
+  <title>Freebe</title>
+
+  <meta name="description" content="L’assistant personnel du freelance" />
+  <meta name="env:id" content="<%= htmlWebpackPlugin.options.BUILD_ID %>" />
+  <meta name="env:build" content="<%= htmlWebpackPlugin.options.APP_ENV %>" />
+  <meta name="env:version" content="<%= htmlWebpackPlugin.options.VERSION %>" />
+
+  <% for (var css in htmlWebpackPlugin.files.css) { %>
+  <link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+  <% } %>
+
+  <script>
+    console.info(`Version <%= htmlWebpackPlugin.options.VERSION %>-<%= htmlWebpackPlugin.options.BUILD_ID %>`)
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <% if (htmlWebpackPlugin.options.APP_ENV === 'production') { %>
+
+  <% } %>
+</body>
+</html>

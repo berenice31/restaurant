@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "paths": {
+      "@utils": ["./src/scripts/utils"],
+      "@constants": ["./src/scripts/constants"],
+      "@views": ["./src/views"],
+      "@layouts": ["./src/scripts/views/layouts"],
+      "@pages": ["./src/views/pages"],
+      "@components": ["./src/views/components"],
+      "@composables": ["./src/scripts/core/composables"],
+      "@controllers": ["./src/scripts/core/controllers"]
+    },
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}

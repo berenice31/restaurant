@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "module": "esnext", 
+    "moduleResolution": "classic",
+    "paths": {
+      "@monitoring": ["./src/monitoring"],
+      "@server": ["./src/server"],
+      "@controllers": ["./src/controllers"],
+      "@services": ["./src/services"],
+      "@debug": ["./src/utils/functions/log.js"],
+      "@hooks": ["./src/hooks"],
+      "@constants": ["./src/constants"],
+      "@utils": ["./src/utils"],
+      "@middleware": ["./src/middleware"],
+      "@database": ["./src/database"],
+      "@models": ["./src/models"],
+      "@authentication": ["./src/authentication"]
+    },
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "_bin"
+  ],
+  "include": ["src/**/*"]
+}
